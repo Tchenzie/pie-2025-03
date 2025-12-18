@@ -2644,12 +2644,11 @@ input, select, textarea {
 		}
 
 			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
+				background-color: #000000;
+			    background-image: -moz-linear-gradient(90deg, #000000, #FFD700);
+			    background-image: -webkit-linear-gradient(90deg, #000000, #FFD700);
+			    background-image: -ms-linear-gradient(90deg, #000000, #FFD700);
+			    background-image: linear-gradient(90deg, #000000, #FFD700);
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
@@ -3582,8 +3581,7 @@ input, select, textarea {
 
 		#main > .main {
 		    padding: 5em 5em 3em 5em ;
-		    border-top: solid 3px transparent;
-		    border-image: linear-gradient(90deg, #000000, #FFD700) 1;
+		    border-top: solid 1px #000000; /* Changed to black */
 		}
 
 
@@ -3802,6 +3800,7 @@ input, select, textarea {
 	    -ms-flex: 1;
 	    flex: 1;
 	}
+
 
 
 
