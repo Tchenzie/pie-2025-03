@@ -3793,6 +3793,14 @@ input, select, textarea {
 	    padding: 0 0.5em;
 	}
 
+	.spotlight.equal .content,
+	.spotlight.equal .image {
+	    -moz-flex: 1;
+	    -webkit-flex: 1;
+	    -ms-flex: 1;
+	    flex: 1;
+	}
+
 
 
 
