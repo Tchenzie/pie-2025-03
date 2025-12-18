@@ -111,7 +111,7 @@ input, select, textarea {
 
 	body {
     background-color: #935d8c;
-    background-image: url("images/bg.jpg");
+    background-image: url("images/bg.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -139,7 +139,7 @@ input, select, textarea {
 	*/
 	body {
     background-color: #935d8c;
-    background-image: url("images/bg.jpg");
+    background-image: url("images/bg.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -3805,5 +3805,6 @@ input, select, textarea {
 			}
 
 		}
+
 
 
